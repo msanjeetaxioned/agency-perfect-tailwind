@@ -13,3 +13,7 @@
 .default-button-style {
     @apply px-[50px] py-[14px] border border-agency-dark-gray rounded-[30px] inline-block text-base hover:bg-agency-dark-gray hover:text-white;
 }
+
+.blue-button-style {
+    @apply px-[50px] py-[14px] rounded-[30px] inline-block bg-agency-blue text-white text-base hover:bg-agency-dark-gray;
+}

@@ -484,12 +484,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 50%;
 }
 
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.top-\[25\%\] {
+  top: 25%;
+}
+
 .z-\[2\] {
   z-index: 2;
 }
 
 .z-\[1\] {
   z-index: 1;
+}
+
+.z-\[3\] {
+  z-index: 3;
 }
 
 .mx-auto {
@@ -517,14 +529,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 100px;
 }
 
-.mb-\[70px\] {
-  margin-bottom: 70px;
-}
-
-.mb-\[20px\] {
-  margin-bottom: 20px;
-}
-
 .mb-\[10px\] {
   margin-bottom: 10px;
 }
@@ -543,6 +547,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-\[25px\] {
   margin-bottom: 25px;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
+
+.mb-\[150px\] {
+  margin-bottom: 150px;
 }
 
 .block {
@@ -585,24 +601,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 1 1 auto;
 }
 
-.basis-1\/2 {
-  flex-basis: 50%;
-}
-
-.basis-5\/12 {
-  flex-basis: 41.666667%;
-}
-
-.basis-7\/12 {
-  flex-basis: 58.333333%;
-}
-
 .basis-\[45\%\] {
   flex-basis: 45%;
 }
 
 .basis-\[22\%\] {
   flex-basis: 22%;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
 }
 
 .translate-x-\[-50\%\] {
@@ -640,24 +648,8 @@ Ensure the default browser behavior of the `hidden` attribute.
        column-gap: 4%;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
-}
-
-.gap-y-16 {
-  row-gap: 4rem;
-}
-
 .gap-y-20 {
   row-gap: 5rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-b-\[1px\] {
-  border-bottom-width: 1px;
 }
 
 .border-b-2 {
@@ -672,6 +664,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#f5f5f8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 248 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#071021\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 16 33 / var(--tw-bg-opacity));
 }
 
 .pb-10 {
@@ -728,17 +725,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 42px;
 }
 
-.text-\[0px\] {
-  font-size: 0px;
-}
-
 .text-\[13px\] {
   font-size: 13px;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-bold {
@@ -777,6 +769,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-transparent {
   color: transparent;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-agency-blue {
+  --tw-text-opacity: 1;
+  color: rgb(38 125 244 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -819,6 +821,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(38 39 45 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.blue-button-style {
+  display: inline-block;
+  border-radius: 30px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 125 244 / var(--tw-bg-opacity));
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.blue-button-style:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 39 45 / var(--tw-bg-opacity));
 }
 
 .last\:mr-0:last-child {
