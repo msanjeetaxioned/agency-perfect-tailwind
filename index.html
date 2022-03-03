@@ -5,57 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgencyPerfect</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="dist/styles.css">
 </head>
-<body>
+<body class="font-agency-font">
     <!-- Header -->
-    <header>
-        <div class="wrapper">
+    <header class="w-full absolute z-[2]">
+        <div class="wrapper lg:pt-[50px] flex">
             <h1>
-                <a href="#FIXME" title="AgencyPerfect">Agency<span>perfect</span></a>
+                <a class="text-agency-dark-gray text-lg font-bold" href="#FIXME" title="AgencyPerfect">Agency<span class="font-normal">Perfect</span></a>
             </h1>
             <!-- Hamburger for Mobile Reso -->
-            <span></span>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#FIXME" title="Home">home</a>
+            <span class="md:hidden"></span>
+            <nav class="flex-auto">
+                <ul class="flex justify-end">
+                    <li class="selected mr-[4%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Home">home</a>
                     </li>
-                    <li>
-                        <ul>
+                    <li class="mr-[5%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Pages">pages</a>
+                        <ul class="hidden">
                             <li>
-                                <a href="#FIXME" title="Portfolio">porfolio</a>
+                                <a class="text-agency-dark-gray text-base capitalize" href="#FIXME" title="Portfolio">porfolio</a>
                             </li>
                             <li>
-                                <a href="#FIXME" title="Blog">blog</a>
+                                <a class="text-agency-dark-gray text-base capitalize" href="#FIXME" title="Blog">blog</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#FIXME" title="Portfolio">porfolio</a>
+                    <li class="mr-[5%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Portfolio">porfolio</a>
                     </li>
-                    <li>
-                        <a href="#FIXME" title="Blog">blog</a>
+                    <li class="mr-[5%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Blog">blog</a>
                     </li>
-                    <li>
-                        <a href="#FIXME" title="Contact">contact</a>
+                    <li class="mr-[5%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Contact">contact</a>
                     </li>
-                    <li>
-                        <a href="#FIXME" title="UI Elements">uI elements</a>
+                    <li class="mr-[5%] last:mr-0">
+                        <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="UI Elements">uI elements</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <!-- Banner -->
-    <section>
+    <section class="relative z-[1]">
         <figure>
-            <img src="assets/images/hero.jpg" alt="Bannee Background"/>
+            <img class="w-[calc(100vw)] h-[calc(100vh)] opacity-50" src="assets/images/hero.jpg" alt="Banner Background"/>
         </figure>
-        <div>
-            <h2>Your story begins from here.</h2>
-            <p>Your clients on the internet. Learn how to receive them.</p>
-            <div>
-                <a href="#FIXME" title="Learn More">Learn more</a>
+        <div class="w-[52%] absolute top-[40%] left-1/2 translate-x-[-50%] translate-y-0">
+            <h2 class="mb-[45px] text-agency-dark-gray text-6xl font-medium text-center">Your story begins from here.</h2>
+            <p class="mb-[30px] text-agency-dark-gray text-xl text-center">Your clients on the internet. Learn how to receive them.</p>
+            <div class="text-center">
+                <a class="default-button-style" href="#FIXME" title="Learn More">Learn more</a>
             </div>
         </div>
     </section>
