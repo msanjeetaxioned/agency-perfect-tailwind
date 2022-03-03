@@ -484,10 +484,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 50%;
 }
 
-.top-\[20\%\] {
-  top: 20%;
-}
-
 .z-\[2\] {
   z-index: 2;
 }
@@ -543,10 +539,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.mb-\[150px\] {
-  margin-bottom: 150px;
 }
 
 .mb-6 {
@@ -927,6 +919,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 1440px;
 }
 
+@media (min-width: 320px) {
+  .wrapper {
+    width: 94%;
+  }
+}
+
 @media (min-width: 1024px) {
   .wrapper {
     width: 75.05%;
@@ -959,6 +957,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .default-button-style {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+
+  .default-button-style {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 .blue-button-style {
   display: inline-block;
   border-radius: 30px;
@@ -977,6 +987,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .blue-button-style:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(38 39 45 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .blue-button-style {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+
+  .blue-button-style {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .before\:mr-3::before {
@@ -1122,23 +1144,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:hidden {
     display: none;
   }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .md\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-\[15\%\] {
-    top: 15%;
-  }
-
   .lg\:top-\[10\%\] {
     top: 10%;
   }
 
   .lg\:mb-\[100px\] {
     margin-bottom: 100px;
-  }
-
-  .lg\:pt-\[50px\] {
-    padding-top: 50px;
   }
 }
 

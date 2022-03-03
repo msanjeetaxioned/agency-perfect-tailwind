@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .wrapper {
-    @apply max-w-agency lg:w-agency mx-auto;
+    @apply max-w-agency sm:w-[94%] lg:w-agency mx-auto;
 }
 
 .hover {
@@ -11,9 +11,9 @@
 }
 
 .default-button-style {
-    @apply px-[50px] py-[14px] border border-agency-dark-gray rounded-[30px] inline-block text-base hover:bg-agency-dark-gray hover:text-white;
+    @apply md:px-[44px] px-[50px] md:py-[10px] py-[14px] border border-agency-dark-gray rounded-[30px] inline-block text-base hover:bg-agency-dark-gray hover:text-white;
 }
 
 .blue-button-style {
-    @apply px-[50px] py-[14px] rounded-[30px] inline-block bg-agency-blue text-white text-base hover:bg-agency-dark-gray;
+    @apply md:px-[44px] px-[50px] md:py-[10px] py-[14px] rounded-[30px] inline-block bg-agency-blue text-white text-base hover:bg-agency-dark-gray;
 }
