@@ -1175,8 +1175,30 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 60%;
   }
 
+  .md\:basis-\[48\%\] {
+    flex-basis: 48%;
+  }
+
+  .md\:basis-\[48\.5\%\] {
+    flex-basis: 48.5%;
+  }
+
+  .md\:gap-x-\[4\%\] {
+    -moz-column-gap: 4%;
+         column-gap: 4%;
+  }
+
+  .md\:gap-x-\[3\%\] {
+    -moz-column-gap: 3%;
+         column-gap: 3%;
+  }
+
   .md\:pt-\[50px\] {
     padding-top: 50px;
+  }
+
+  .md\:pb-48 {
+    padding-bottom: 12rem;
   }
 
   .md\:text-5xl {
