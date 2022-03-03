@@ -2,16 +2,11 @@ module.exports = {
   content: ['index.html'],
   theme: {
     screens: {
-      'sm': '320px',
-      // => @media (min-width: 320px) { ... }
+      'sm': {'max': '767px'},
 
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
+      'md': {'max': '1023px'},
 
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px'
+      'lg': {'max': '1279px'}
     },
     extend: {
       width: {

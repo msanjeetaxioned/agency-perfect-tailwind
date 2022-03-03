@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .wrapper {
-    @apply max-w-agency sm:w-[94%] lg:w-agency mx-auto;
+    @apply max-w-agency md:w-[94%] w-agency mx-auto;
 }
 
 .hover {
