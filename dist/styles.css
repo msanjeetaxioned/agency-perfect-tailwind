@@ -1183,6 +1183,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-basis: 48.5%;
   }
 
+  .md\:basis-1\/3 {
+    flex-basis: 33.333333%;
+  }
+
   .md\:gap-x-\[4\%\] {
     -moz-column-gap: 4%;
          column-gap: 4%;
