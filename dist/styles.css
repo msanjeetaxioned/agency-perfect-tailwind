@@ -1208,6 +1208,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
 }
 
+.after\:content-\[\'\\f0c9\'\]::after {
+  --tw-content: '\f0c9';
+  content: var(--tw-content);
+}
+
 .last\:mr-0:last-child {
   margin-right: 0px;
 }
@@ -1402,5 +1407,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:text-\[0px\] {
+    font-size: 0px;
   }
 }
