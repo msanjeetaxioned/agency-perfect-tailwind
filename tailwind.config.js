@@ -2,11 +2,11 @@ module.exports = {
   content: ['index.html'],
   theme: {
     screens: {
-      'sm': {'max': '767px'},
+      'lg': {'max': '1279px'},
 
       'md': {'max': '1023px'},
 
-      'lg': {'max': '1279px'}
+      'sm': {'max': '767px'}
     },
     extend: {
       width: {
