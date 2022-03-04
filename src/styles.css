@@ -11,9 +11,9 @@
 }
 
 .default-button-style {
-    @apply md:px-[44px] px-[50px] md:py-[10px] py-[14px] border border-agency-dark-gray rounded-[30px] inline-block text-base hover:bg-agency-dark-gray hover:text-white;
+    @apply px-[50px] md:px-[44px] sm:px-8 py-[14px] md:py-[10px] border border-agency-dark-gray rounded-[30px] inline-block text-base sm:text-sm hover:bg-agency-dark-gray hover:text-white;
 }
 
 .blue-button-style {
-    @apply md:px-[44px] px-[50px] md:py-[10px] py-[14px] rounded-[30px] inline-block bg-agency-blue text-white text-base hover:bg-agency-dark-gray;
+    @apply px-[50px] md:px-[44px] sm:px-8 py-[14px] md:py-[10px] rounded-[30px] inline-block bg-agency-blue text-white text-base sm:text-sm hover:bg-agency-dark-gray;
 }

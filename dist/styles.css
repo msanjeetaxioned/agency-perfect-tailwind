@@ -476,6 +476,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .top-\[40\%\] {
   top: 40%;
 }
@@ -486,10 +490,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .top-\[20\%\] {
   top: 20%;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .z-\[2\] {
@@ -609,10 +609,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
-.w-0 {
-  width: 0px;
-}
-
 .max-w-none {
   max-width: none;
 }
@@ -648,11 +644,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .translate-y-0 {
   --tw-translate-y: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-0 {
-  --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -823,10 +814,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 40px;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
 }
@@ -952,48 +939,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.transition-\[text-left\] {
-  transition-property: text-left;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[text-align\] {
-  transition-property: text-align;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[width\] {
-  transition-property: width;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[left\] {
-  transition-property: left;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -1053,6 +998,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (max-width: 767px) {
+  .default-button-style {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .default-button-style {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
 .blue-button-style {
   display: inline-block;
   border-radius: 30px;
@@ -1082,6 +1039,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   .blue-button-style {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blue-button-style {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .blue-button-style {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -1207,13 +1176,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(38 39 45 / var(--tw-text-opacity));
 }
 
-.after\:content-\[\'\\f0d7\'\]::after {
-  --tw-content: '\f0d7';
+.after\:content-\[\'\\f0c9\'\]::after {
+  --tw-content: '\f0c9';
   content: var(--tw-content);
 }
 
-.after\:content-\[\'\\f0c9\'\]::after {
-  --tw-content: '\f0c9';
+.after\:content-\[\'\\f0d7\'\]::after {
+  --tw-content: '\f0d7';
   content: var(--tw-content);
 }
 
@@ -1225,29 +1194,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
-.hover\:left-1\/2:hover {
-  left: 50%;
-}
-
 .hover\:left-1\/4:hover {
   left: 25%;
-}
-
-.hover\:left-\[50px\]:hover {
-  left: 50px;
-}
-
-.hover\:w-0:hover {
-  width: 0px;
-}
-
-.hover\:w-full:hover {
-  width: 100%;
-}
-
-.hover\:translate-x-\[-50\%\]:hover {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-agency-dark-gray:hover {
@@ -1273,10 +1221,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-\[\#007bb5\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 123 181 / var(--tw-bg-opacity));
-}
-
-.hover\:text-center:hover {
-  text-align: center;
 }
 
 .hover\:before\:text-white:hover::before {
@@ -1415,16 +1359,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (max-width: 767px) {
-  .sm\:mb-\[15px\] {
-    margin-bottom: 15px;
+  .sm\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:mb-\[10px\] {
+    margin-bottom: 10px;
   }
 
   .sm\:mb-\[25px\] {
     margin-bottom: 25px;
   }
 
-  .sm\:mb-\[10px\] {
-    margin-bottom: 10px;
+  .sm\:mb-\[15px\] {
+    margin-bottom: 15px;
   }
 
   .sm\:block {
@@ -1437,6 +1385,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:w-\[94\%\] {
+    width: 94%;
   }
 
   .sm\:w-full {
@@ -1461,5 +1413,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:text-\[0px\] {
     font-size: 0px;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
