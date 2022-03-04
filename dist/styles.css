@@ -1383,6 +1383,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2rem;
   }
 
+  .sm\:mb-\[5px\] {
+    margin-bottom: 5px;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1425,6 +1429,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:pb-5 {
     padding-bottom: 1.25rem;
+  }
+
+  .sm\:pt-\[30px\] {
+    padding-top: 30px;
+  }
+
+  .sm\:pb-\[60px\] {
+    padding-bottom: 60px;
   }
 
   .sm\:text-center {
