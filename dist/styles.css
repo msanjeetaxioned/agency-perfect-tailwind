@@ -876,6 +876,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 10px;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1375,6 +1379,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 15px;
   }
 
+  .sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1405,6 +1413,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:pb-\[50px\] {
     padding-bottom: 50px;
+  }
+
+  .sm\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+
+  .sm\:pb-\[25px\] {
+    padding-bottom: 25px;
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .sm\:text-center {
