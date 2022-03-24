@@ -593,6 +593,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: calc(100vh);
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -767,6 +771,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(111 199 84 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -851,6 +860,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -874,10 +887,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[10px\] {
   font-size: 10px;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
 }
 
 .font-bold {
@@ -1363,6 +1372,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (max-width: 767px) {
+  .sm\:top-\[20\%\] {
+    top: 20%;
+  }
+
   .sm\:mb-5 {
     margin-bottom: 1.25rem;
   }
@@ -1371,32 +1384,36 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 10px;
   }
 
-  .sm\:mb-\[25px\] {
-    margin-bottom: 25px;
-  }
-
-  .sm\:mb-\[15px\] {
-    margin-bottom: 15px;
-  }
-
   .sm\:mb-8 {
     margin-bottom: 2rem;
   }
 
-  .sm\:mb-\[5px\] {
-    margin-bottom: 5px;
-  }
-
-  .sm\:mb-\[30px\] {
-    margin-bottom: 30px;
+  .sm\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
-  .sm\:mb-0 {
-    margin-bottom: 0px;
+  .sm\:mb-\[15px\] {
+    margin-bottom: 15px;
+  }
+
+  .sm\:mb-\[5px\] {
+    margin-bottom: 5px;
+  }
+
+  .sm\:mb-\[25px\] {
+    margin-bottom: 25px;
+  }
+
+  .sm\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .sm\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .sm\:block {
@@ -1411,6 +1428,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .sm\:h-screen {
+    height: 100vh;
+  }
+
   .sm\:w-\[94\%\] {
     width: 94%;
   }
@@ -1419,8 +1440,41 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
   }
 
+  .sm\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .sm\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .sm\:pb-\[25px\] {
+    padding-bottom: 25px;
+  }
+
+  .sm\:pt-\[30px\] {
+    padding-top: 30px;
+  }
+
+  .sm\:pb-\[60px\] {
+    padding-bottom: 60px;
   }
 
   .sm\:pt-\[25px\] {
@@ -1431,24 +1485,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 50px;
   }
 
-  .sm\:pt-\[50px\] {
-    padding-top: 50px;
-  }
-
-  .sm\:pb-\[25px\] {
-    padding-bottom: 25px;
-  }
-
-  .sm\:pb-5 {
-    padding-bottom: 1.25rem;
-  }
-
-  .sm\:pt-\[30px\] {
-    padding-top: 30px;
-  }
-
-  .sm\:pb-\[60px\] {
-    padding-bottom: 60px;
+  .sm\:pb-\[100px\] {
+    padding-bottom: 100px;
   }
 
   .sm\:text-center {
@@ -1476,5 +1514,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
