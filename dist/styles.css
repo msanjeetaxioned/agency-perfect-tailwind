@@ -1378,20 +1378,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
 
-  .sm\:-right-\[250px\] {
+  .sm\:right-\[-250px\] {
     right: -250px;
   }
 
   .sm\:top-\[50\%\] {
     top: 50%;
-  }
-
-  .sm\:right-0 {
-    right: 0px;
-  }
-
-  .sm\:right-\[-250px\] {
-    right: -250px;
   }
 
   .sm\:z-\[3\] {
