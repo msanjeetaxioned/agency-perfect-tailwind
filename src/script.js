@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     let top = counterContent.getBoundingClientRect().top;
 
     let newInterval = setInterval(function() {
-        console.log(window.scrollY);
         if(window.scrollY >= top) {
             animateCounters();
             clearInterval(newInterval);
