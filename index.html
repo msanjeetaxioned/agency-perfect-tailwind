@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="dist/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="dist/styles.css">
+    <script src="src/script.js" type="text/javascript"></script>
 </head>
 <body class="font-agency-font">
     <!-- Header -->
@@ -17,13 +18,14 @@
                 <a class="text-agency-dark-gray text-lg font-bold" href="#FIXME" title="AgencyPerfect">Agency<span class="font-normal">Perfect</span></a>
             </h1>
             <!-- Hamburger for Mobile Reso -->
-            <span class="hidden sm:inline-block sm:text-[0px] after:content-['\f0c9'] after:ml-2 after:text-agency-dark-gray after:font-fa-free after:text-base after:font-bold hover:after:text-agency-light-green">Hamburger</span>
-            <nav class="sm:hidden flex-auto">
-                <ul class="flex justify-end">
-                    <li class="selected mr-[4%] last:mr-0">
+            <span title="Menu" class="hamburger-open hidden sm:inline-block sm:text-[0px] after:content-['\f0c9'] after:text-agency-dark-gray after:font-fa-free after:text-base after:font-bold hover:after:text-agency-light-green">Hamburger</span>
+            <nav class="nav-container flex-auto sm:py-3 sm:hidden sm:absolute sm:z-[3] sm:right-[-250px] sm:bg-white sm:flex-none sm:transition-all sm:duration-700">
+                <span title="Close" class="sm:pl-4 hidden sm:block sm:text-[0px] text-center after:content-['\f00d'] after:text-agency-dark-gray after:font-fa-free after:text-base after:font-bold hover:after:text-red-700">Close</span>
+                <ul class="flex justify-end sm:block">
+                    <li class="selected sm:px-4 sm:py-1 mr-[4%] last:mr-0 sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Home">home</a>
                     </li>
-                    <li class="mr-[5%] last:mr-0 group relative">
+                    <li class="sm:px-4 sm:py-1 mr-[5%] last:mr-0 group relative sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover after:content-['\f0d7'] after:ml-2 after:text-agency-dark-gray after:font-fa-free after:text-base after:font-bold hover:after:text-agency-light-green" href="#FIXME" title="Pages">pages</a>
                         <ul class="hidden group-hover:min-w-[130px] group-hover:py-2 group-hover:px-2 group-hover:border-t-[6px] group-hover:border-agency-light-green group-hover:block group-hover:absolute group-hover:top-full group-hover:right-0 group-hover:bg-white">
                             <li class="mb-3">
@@ -34,16 +36,16 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="mr-[5%] last:mr-0">
+                    <li class="sm:px-4 sm:py-1 mr-[5%] last:mr-0 sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Portfolio">porfolio</a>
                     </li>
-                    <li class="mr-[5%] last:mr-0">
+                    <li class="sm:px-4 sm:py-1 mr-[5%] last:mr-0 sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Blog">blog</a>
                     </li>
-                    <li class="mr-[5%] last:mr-0">
+                    <li class="sm:px-4 sm:py-1 mr-[5%] last:mr-0 sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="Contact">contact</a>
                     </li>
-                    <li class="mr-[5%] last:mr-0">
+                    <li class="sm:px-4 sm:py-1 mr-[5%] last:mr-0 sm:mr-0">
                         <a class="text-agency-dark-gray text-base capitalize hover" href="#FIXME" title="UI Elements">uI elements</a>
                     </li>
                 </ul>
